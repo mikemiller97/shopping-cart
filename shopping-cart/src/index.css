@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav {
+  background-color: #181818;
+}
+
+ul {
+ display: flex;
+ justify-content: space-between;
+ padding-right: 25px;
+}
+
+li {
+  list-style-type: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.app {
+  background: #EAEDED;
+}
+
+.cart {
+  background: #EAEDED;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.banner > button {
+  padding: 5px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgrey;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 2px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.items-list {
+  display: flex;
+  gap: 25px;
+}
